@@ -83,7 +83,7 @@ module.exports = {
   plugins: [
     new HTMLWebpackPlugin({
       // title: 'demo',
-      template: './src/index.html',
+      template: './public/index.html',
     }),
     new CleanWebpackPlugin(),
   ],
@@ -93,5 +93,5 @@ module.exports = {
     extensions: ['.ts', '.js'],
   },
 
-  mode: 'development',
+  mode: 'production',
 }
